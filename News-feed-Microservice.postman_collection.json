@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "a7d83da3-77a7-4837-9827-3711343d1793",
+		"name": "News-feed-Microservice",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31974789"
+	},
+	"item": [
+		{
+			"name": "publish post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\" : \"satish001\",\n    \"title\" : \"kush bhi\",\n    \"content\" : \"content kush bhi\",\n    \"category\" : \"fix\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/api/post/publish",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"post",
+						"publish"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

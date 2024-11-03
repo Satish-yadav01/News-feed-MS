@@ -1,0 +1,12 @@
+# Ignore IDE settings
+.idea/
+
+# Ignore build directories
+*/target/
+
+# Ignore OS-specific files
+.DS_Store
+
+# Ignore Maven wrapper files
+mvnw
+mvnw.cmd
